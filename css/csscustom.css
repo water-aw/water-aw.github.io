@@ -277,7 +277,7 @@ button:not(:disabled) {
     overflow: hidden;
     width: 230px;
     height: 143px;
-    background: var(--anzhiyu-card-bg);
+    background: rgb(179, 71, 241);
     display: flex;
 }
 
@@ -312,4 +312,48 @@ button:not(:disabled) {
 /* 手机端适配 */
 [data-theme="dark"] #sidebar #sidebar-menus .menus_items .site-page {
     text-shadow: 0 0 2px rgb(179, 71, 241) !important;
+}
+
+/* Twikoo 评论样式 */
+
+.tk-input .el-textarea__inner {
+    min-height: 120px !important;
+}
+
+#twikoo .OwO-body {
+    max-width: 100% !important;
+}
+
+#twikoo .OwO .OwO-body .OwO-items:nth-child(1),
+#twikoo .OwO .OwO-body .OwO-items:nth-child(4) {
+    max-height: 360px !important;
+}
+
+#twikoo .OwO-items li[title|=menhera] img {
+    width: 100% !important;
+    margin: 5px 10px;
+}
+
+.tk-comment .tk-owo-emotion[alt*=menhera] {
+    width: 300px !important;
+}
+
+.tk-comment .vemoji[alt|=menhera],
+.tk-comment .tk-owo-emotion[alt*=menhera] {
+    max-width: 300px !important;
+    max-height: 300px !important;
+    margin: 8px 1px;
+    display: block !important;
+}
+
+@media screen and (max-width: 768px) {
+    .tk-comment .vemoji[alt|=menhera], .tk-comment .tk-owo-emotion[alt*=menhera] {
+        max-width: calc(100% - 30px) !important;
+        max-height: calc(100% - 30px) !important;
+    }
+    .OwO .OwO-body .OwO-items-image .OwO-item[title*=menhera] {
+        max-width: calc(50% - 10px);
+        box-sizing: border-box;
+    }
+
 }
