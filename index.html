@@ -1,0 +1,338 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>之华的个人博客 - 记录</title><meta name="author" content="之华"><meta name="copyright" content="之华"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="分享美好 与你">
+<meta property="og:type" content="website">
+<meta property="og:title" content="之华的个人博客">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="之华的个人博客">
+<meta property="og:description" content="分享美好 与你">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/headPic.jpg">
+<meta property="article:author" content="之华">
+<meta property="article:tag" content="博客 技术">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/img/headPic.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: {"appId":"0VA0N5PUD2","apiKey":"7d0b8ae93ef9c233ee4b61f461bf452c","indexName":"zhihua","hits":{"per_page":10},"languages":{"input_placeholder":"搜索文章","hits_empty":"找不到您查询的内容：${query}","hits_stats":"找到 ${hits} 条结果，用时 ${time} 毫秒"}},
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '之华的个人博客',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: true,
+  isToc: false,
+  postUpdate: '2023-11-29 23:01:15'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/custom.css"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.css" /><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/headPic.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">19</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/img/zhangwei.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="之华的个人博客"><img class="site-icon" src="https://zhihuavip-blog.oss-cn-shenzhen.aliyuncs.com/202304181758550.jpg"/><span class="site-name">之华的个人博客</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">之华的个人博客</h1><div id="site_social_icons"><a class="social-icon" href="https://github.com/water-aw/water-aw.github.io.git" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:507140388@qq.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/05/09/hello-world/" title="致看官">致看官</a><div class="article-meta-wrap"><span class="article-meta"><i class="fas fa-thumbtack sticky"></i><span class="sticky">置顶</span><span class="article-meta-separator">|</span></span><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-05-09T10:37:02.380Z" title="发表于 2023-05-09 18:37:02">2023-05-09</time></span></div><div class="content">大家好，这是我的第一篇博客，第一次自己搭建博客，其目的主要是为了将学习过程中遇到的问题记录下来以供后续翻阅。当然，要是顺道能帮助到了有需要的人便更好了。
+博客现状目前还在不断更新中，从2002年12月28日开始计划，2002年12月30日完成博客上线，后续会根据个人情况每天花费一定的时间来不断完善本博客，尽请期待！
+很抱歉，我的阿里云图床过期了，但是我没有及时续费，导致部分图片无法浏览，在此对本站的访客深表歉意。
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/11/29/%E9%BB%91%E7%A7%91%E6%8A%80/" title="黑科技合集">黑科技合集</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-11-29T14:54:23.960Z" title="发表于 2023-11-29 22:54:23">2023-11-29</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%B5%84%E6%BA%90/">资源</a></span></div><div class="content">黑科技PC端Android端影音类网易云音乐 v8.7.55解锁会员版软件介绍
+网易云音乐歌单数量大、种类全、品质高，百万CD音质歌曲，320K超高品质音乐永久免费！网易云音乐移动版是一款专注于发现与分享的音乐产品，依托专业音乐人、DJ、好友推荐及社交功能，为用户打造全新的音乐生活。网易音乐，拥有良好的口碑和广大用户的肯定及赞赏。它具有非常强大的歌曲推荐算法，拥有高质量的歌单：外语，电音，纯音乐，ACG等等，另外它的评论功能也非常不错，这些让它深受用户喜爱。
+特点描述
+深度去广告纯净版
+by 洛星苒, wushidi
+– 解锁本地黑胶VIP：鲸云音效、会员皮肤
+– 去隐私条款、去启动广告，去本地音乐广告
+– 去搜索界面横幅广告、去歌单界面会员推广
+– 精简Tab，首页保留「我的」与「发现」
+– 去各种向导、去发现页和歌单广场的推广横幅
+– 精简侧边栏、精简设置页面、移除各种小红点
+– 去升级，去第三方推送SDK，去不必要权限服务
+
+新增自动签到、支持QQ登陆！
+将直播按钮替换为私人FM(避免云控)
+再次移除鲸云音效入口、进一步压缩apk体积
+移除侧边栏小红点（之前显示是白点，实际是小红 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/11/22/WeMod%20v8.12.0%E7%A0%B4%E8%A7%A3%E7%89%88/" title="WeMod v8.12.0破解版">WeMod v8.12.0破解版</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-11-21T16:10:00.030Z" title="发表于 2023-11-22 00:10:00">2023-11-22</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%B8%B8%E6%88%8F/">游戏</a></span></div><div class="content">WeMod v8.12.0破解版应用介绍：
+WeMod 目前支持超过千款热门游戏，且每周都会追加游戏列表。由于很多修改器原作者都入驻了，所以修改器内容更新应该也是最全、最及时的。千款游戏听起来不多，但其实已经涵盖了主流热门游戏。
+下载链接： https://url12.ctfile.com/f/40276012-977485957-2448fa?p=7951
+‍
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/11/16/%E4%B8%AD%E6%80%A7%E7%AC%94/" title="中性笔">中性笔</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-11-15T16:09:02.860Z" title="发表于 2023-11-16 00:09:02">2023-11-16</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%96%87%E5%85%B7/">文具</a></span></div><div class="content">中性笔好用的中性笔，排名不分先后，会罗列出该笔的优缺点。
+不建议大量购买中性笔，也没有必要重复购买。
+
+三菱 UB-150
+优点：书写稳定，出墨充沛，既不会太滑也不会太涩
+缺点：在有写纸上容易透墨
+
+百乐 G-2
+0.7mm
+中性笔的标杆
+
+百乐 v5rt
+优点：三点衬托，更充沛的墨水，中性笔墨不透墨，笔芯可换
+缺点：笔贵（但是替芯便宜）
+
+
+‍
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/08/27/%E7%B3%BB%E7%BB%9F%E4%BF%AE%E5%A4%8D%E8%BD%AF%E4%BB%B6FixWin11%EF%BC%88%E5%85%B6%E5%AE%9EWindows10%E4%B9%9F%E9%80%82%E7%94%A8%EF%BC%89/" title="系统修复软件FixWin11（其实Windows10也适用）">系统修复软件FixWin11（其实Windows10也适用）</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-08-26T16:51:17.510Z" title="发表于 2023-08-27 00:51:17">2023-08-27</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%B3%BB%E7%BB%9F%E5%B7%A5%E5%85%B7/">系统工具</a></span></div><div class="content">这是一款轻量级的工具，自带中文版本，点击带有zh-CHS后缀的启动程序即可打开中文版的软件。软件主页左侧即为功能列表，本文将依次展示各个界面本软件有一个非常有趣的设计就是界面上的”?”，我们点开这个”?”就能发现软件将它会执行的操作展示给我们看了你在遇到相应的问题的时候不仅能高效解决，还能掌握其中的解决方法，真正做到了“授人以鱼不如授人以渔”。当然，如果好朋友遇到相应的电脑难题，你也可以按照软件提示——双击说明，将解决方案搬运给好友，也能装一次电脑高手。互联网和连接板块集合了常见的网络问题，能帮你在上不了网的情况下完成离线修复，免去了用其他设备手动百度的麻烦。系统修复板块主要是针对系统更新后常常遇见的问题，这些问题如果自己手动解决的话也是挺麻烦的系统工具板块则是一些相对冷门的问题，但是在特定场合下也非常高效。故障排除则是集合了大量的系统检测方法，里面也配备了对应的检测修复工具剩下的就是一些问题杂项。总的来说，该软件无需联网就能解决一些常见的问题并且十分轻量，留作备用也是非常不错的。
+软件官网：https://www.thewindowsclub.com/网盘下载：https://www ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/08/19/%E8%8B%B1%E8%AF%AD%E7%9C%9F%E9%A2%98%E9%80%90%E9%A2%98%E7%BF%BB%E8%AF%91/" title="英语真题逐题翻译">英语真题逐题翻译</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-08-19T08:43:18.450Z" title="发表于 2023-08-19 16:43:18">2023-08-19</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%80%83%E7%A0%94/">考研</a></span></div><div class="content">2008Text1
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/07/26/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/" title="搜索引擎">搜索引擎</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-07-26T14:52:27.690Z" title="发表于 2023-07-26 22:52:27">2023-07-26</time></span></div><div class="content">bt磁力搜索引擎-磁力多磁力多磁力多，一款小众的bt磁力搜索引擎，可以用来搜索各种电视、电影、音乐、软件、小说、学习资料等等资源，不过这款磁力搜索引擎的搜索结果可能插了几个奇怪的东西，大家不要乱点就好了，不要迷失自我了。
+bt磁力搜索引擎地址磁力多：http://ciliduo.cyou
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/07/24/%E5%9B%BD%E5%86%85GitHub%E5%8A%A0%E9%80%9F%E8%AE%BF%E9%97%AE%E5%B7%A5%E5%85%B7-Fetch%20GitHub%20Hosts/" title="国内GitHub加速访问工具-Fetch GitHub Hosts">国内GitHub加速访问工具-Fetch GitHub Hosts</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-07-23T23:31:19.820Z" title="发表于 2023-07-24 07:31:19">2023-07-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%B5%84%E6%BA%90/">资源</a></span></div><div class="content">Fetch GitHub HostsFetch GitHub Hosts是一款开源跨平台的国内GitHub加速访问工具，主要为解决研究及学习人员访问 Github 过慢或其他问题而提供的 Github Hosts 同步工具，项目原理是通过部署此项目本身的服务器来获取 github.com 的 hosts，而不是通过第三方ip地址接口来进行获取，例如 ipaddress.com 等。
+
+国内GitHub加速访问工具使用方法软件支持图像化界面操作，不用直接操作hosts，对小白也非常友好且方便，到 Releases 中下载对应系统版本（目前支持Windows&#x2F;Linux&#x2F;MacOS ），
+下载完成解压tar.gz压缩包，运行对应平台的执行文件即可运行（ ⚠️ 注意：Linux下需要用sudo进行启动，Windows和MacOS会自动进行提权操作。）
+国内GitHub加速访问工具GitHub地址官网：https://hosts.gitcdn.top/
+GitHub：https://github.com/Licoy/fetch-github-hosts
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/07/17/%E7%BD%91%E7%AB%99%E5%B7%A5%E5%85%B7%E5%90%88%E9%9B%86/" title="网站工具合集">网站工具合集</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-07-17T05:35:06.050Z" title="发表于 2023-07-17 13:35:06">2023-07-17</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%B5%84%E6%BA%90/">资源</a></span></div><div class="content">嘚巴德-免费知乎盐选文章阅读嘚巴德嘚巴德是一个免费知乎盐选文章阅读网站，网站免费搬运知乎盐选的各种类型文章和小说，而且还可以直接通过复制知乎盐选文章链接进行搜索解锁知乎付费盐选内容，非常方便，网站界面UI简约，免费无广告，用爱发电，而且还提供安卓版的apk，低调用。网站地址：http://119.91.35.62/
+最好的微信朋友圈集赞神器-集赞2.0微信朋友圈集赞神器介绍2023年了，然后还是存在集赞这种活动，xx活动，朋友圈集满50个赞，送xx！
+还在为这些恼人的微信朋友圈集赞发愁吗？
+如果你有这样的烦恼，之华推荐你试试这款免费的微信朋友圈集赞神器，简单体验了一下，发现这款工具高度还原了一个整个微信界面ui，现在“集赞2.0 ”发布，逻辑重构，去除一天只能发布一条朋友圈的限制，删除“三连”功能，现在可以无限制的发布，1比1还原微信，轻松设置点赞数，再也不用担心点赞数量。
+微信朋友圈集赞神器效果
+集赞2.0使用注意达到全屏的效果， 可以直接把链接发送到桌面，安卓和iOS操作差不多，官网有介绍。
+集赞神器使用帮助页面：https://blog.itakeo.com/help
+微信朋友圈 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/05/16/Xmind%E7%A0%B4%E8%A7%A3/" title="Xmind破解教程">Xmind破解教程</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-05-16T07:44:33.530Z" title="发表于 2023-05-16 15:44:33">2023-05-16</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%B5%84%E6%BA%90/">资源</a></span></div><div class="content">1. 先下载对应文件下载链接，xmind破解64位.zip: https://url12.ctfile.com/f/40276012-857636700-bdaa2a?p=7951 (访问密码: 7951)解压后，目录如下
+2. 安装xmind第二个文件才是安装文件没什么好讲的，点击接受确定安装位置一路点确定就好了
+3. 安装完之后打开软件弹出来的界面全部点“x”就好，然后打开“编辑-&gt;首选项”，然后把自动更新给关了点击“帮助-&gt;关于xmind”可以看到激活状态
+4. 开始破解
+先关掉xmind
+打开刚才解压的文件
+以管理员权限打开破解文件
+接受协议并一路点下一步
+成功
+
+5. 查看激活状态打开xmind点击“帮助-&gt;关于xmind”可以看到激活状态
+ok，教程结束。
+</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/headPic.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">之华</div><div class="author-info__description">分享美好 与你</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">19</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/water-aw/water-aw.github.io.git" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:507140388@qq.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/11/29/%E9%BB%91%E7%A7%91%E6%8A%80/" title="黑科技合集">黑科技合集</a><time datetime="2023-11-29T14:54:23.960Z" title="发表于 2023-11-29 22:54:23">2023-11-29</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/11/22/WeMod%20v8.12.0%E7%A0%B4%E8%A7%A3%E7%89%88/" title="WeMod v8.12.0破解版">WeMod v8.12.0破解版</a><time datetime="2023-11-21T16:10:00.030Z" title="发表于 2023-11-22 00:10:00">2023-11-22</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/11/16/%E4%B8%AD%E6%80%A7%E7%AC%94/" title="中性笔">中性笔</a><time datetime="2023-11-15T16:09:02.860Z" title="发表于 2023-11-16 00:09:02">2023-11-16</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/08/27/%E7%B3%BB%E7%BB%9F%E4%BF%AE%E5%A4%8D%E8%BD%AF%E4%BB%B6FixWin11%EF%BC%88%E5%85%B6%E5%AE%9EWindows10%E4%B9%9F%E9%80%82%E7%94%A8%EF%BC%89/" title="系统修复软件FixWin11（其实Windows10也适用）">系统修复软件FixWin11（其实Windows10也适用）</a><time datetime="2023-08-26T16:51:17.510Z" title="发表于 2023-08-27 00:51:17">2023-08-27</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/08/19/%E8%8B%B1%E8%AF%AD%E7%9C%9F%E9%A2%98%E9%80%90%E9%A2%98%E7%BF%BB%E8%AF%91/" title="英语真题逐题翻译">英语真题逐题翻译</a><time datetime="2023-08-19T08:43:18.450Z" title="发表于 2023-08-19 16:43:18">2023-08-19</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            <a class="card-more-btn" href="/categories/" title="查看更多">
+    <i class="fas fa-angle-right"></i></a>
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%9B%BE%E4%B9%A6/"><span class="card-category-list-name">图书</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%8A%80%E5%B7%A7/"><span class="card-category-list-name">技巧</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%96%87%E5%85%B7/"><span class="card-category-list-name">文具</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%B8%B8%E6%88%8F/"><span class="card-category-list-name">游戏</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%B3%BB%E7%BB%9F%E5%B7%A5%E5%85%B7/"><span class="card-category-list-name">系统工具</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"><span class="card-category-list-name">网络安全</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%80%83%E7%A0%94/"><span class="card-category-list-name">考研</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%B5%84%E6%BA%90/"><span class="card-category-list-name">资源</span><span class="card-category-list-count">7</span></a></li>
+            </ul></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/11/"><span class="card-archive-list-date">十一月 2023</span><span class="card-archive-list-count">3</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/08/"><span class="card-archive-list-date">八月 2023</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/07/"><span class="card-archive-list-date">七月 2023</span><span class="card-archive-list-count">3</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/05/"><span class="card-archive-list-date">五月 2023</span><span class="card-archive-list-count">11</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">19</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2022-12-11T16:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2023-11-29T15:01:14.985Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div id="ft"><div class="ft-item-1"><div class="t-top"><div class="t-t-l"><p class="ft-t t-l-t">之华</p><div class="bg-ad"><div>风声雨声读书声 声声入耳<br/>国事家事天下事 事事关心</div><div class="btn-xz-box"><a class="btn-xz" target="_blank" rel="noopener" href="https://zhihua.vip/">之华的个人博客</a></div></div></div><div class="t-t-r"><p class="ft-t t-l-t">修仙导航</p><ul class="ft-links"><!--li--><!--  a(href='https://tzy1997.com/articles/hexo1600/') 建站指南--><!--  a(href='https://tzy1997.com/nav.html') 网址导航--><!--li--><!--  a(href='https://tzy1997.com/sponsorWall/') 来杯咖啡--><!--  a(href='https://tzy1997.com/comments/') 留点什么--><!--li--><!--  a(href='https://tzy1997.com/about/') 关于博主--><!--  a(href='https://tzy1997.com/archives/') 文章归档--><!--li--><!--  a(href='https://tzy1997.com/categories/') 文章分类--><!--  a(href='https://tzy1997.com/tags/') 文章标签--><!--li--><!--  a(href='https://tzy1997.com/gallery/') 我的相册--><!--  a(href='https://tzy1997.com/bangumis/') 我的追番--><!--li--><!--  a(href='https://tzy1997.com/specialEffects/') 一些特效--><!--  a(href='https://tzy1997.com/wallpaper/') 一些壁纸--></ul></div></div></div><div class="ft-item-2"><p class="ft-t">推荐友链</p><div class="ft-img-group"><!--.img-group-item--><!--  a(href='https://tzy1997.com/')--><!--    img(src='https://bu.dusays.com/2022/05/02/626f92e193879.jpg' alt='')--><!--.img-group-item--><!--  a(href='https://tzy1997.com/')--><!--    img(src='https://bu.dusays.com/2022/05/02/626f92e193879.jpg' alt='')--><!--.img-group-item--><!--  a(href='https://tzy1997.com/')--><!--    img(src='https://bu.dusays.com/2022/05/02/626f92e193879.jpg' alt='')--><!--.img-group-item--><!--  a(href='https://tzy1997.com/')--><!--    img(src='https://bu.dusays.com/2022/05/02/626f92e193879.jpg' alt='')--><!--.img-group-item--><!--  a(href='https://tzy1997.com/')--><!--    img(src='https://bu.dusays.com/2022/05/02/626f92e193879.jpg' alt='')--><!--.img-group-item--><!--  a(href='https://tzy1997.com/')--><!--    img(src='https://bu.dusays.com/2022/05/02/626f92e193879.jpg' alt='')--><!--.img-group-item--><!--  a(href='https://tzy1997.com/')--><!--    img(src='https://bu.dusays.com/2022/05/02/626f92e193879.jpg' alt='')--><!--.img-group-item--><!--  a(href='https://tzy1997.com/')--><!--    img(src='https://bu.dusays.com/2022/05/02/626f92e193879.jpg' alt='')--></div></div></div><div class="copyright">&copy;2022 - 2023  <i id="heartbeat" class="fa fas fa-heartbeat"></i> 之华</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script src="//code.tidio.co/lkqlasa6lpktd8jhesmlci0yro6znv6w.js" async="async"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener scroll 
+  window.tocScrollFn && window.removeEventListener('scroll', window.tocScrollFn)
+  window.scrollCollect && window.removeEventListener('scroll', scrollCollect)
+
+  document.getElementById('rightside').style.cssText = "opacity: ''; transform: ''"
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+  typeof disqusjs === 'object' && disqusjs.destroy()
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="algolia-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="search-wrap"><div id="algolia-search-input"></div><hr/><div id="algolia-search-results"><div id="algolia-hits"></div><div id="algolia-pagination"></div><div id="algolia-info"><div class="algolia-stats"></div><div class="algolia-poweredBy"></div></div></div></div></div><div id="search-mask"></div><script src="https://cdn.jsdelivr.net/npm/algoliasearch/dist/algoliasearch-lite.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instantsearch.js/dist/instantsearch.production.min.js"></script><script src="/js/search/algolia.js"></script></div></div><!-- hexo injector body_end start --><script data-pjax>
+  function butterfly_clock_anzhiyu_injector_config(){
+    var parent_div_git = document.getElementsByClassName('sticky_layout')[0];
+    var item_html = '<div class="card-widget card-clock"><div class="card-glass"><div class="card-background"><div class="card-content"><div id="hexo_electric_clock"><img class="entered loading" id="card-clock-loading" src="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/loading.gif" style="height: 120px; width: 100%;" data-ll-status="loading"/></div></div></div></div></div>';
+    console.log('已挂载butterfly_clock_anzhiyu')
+    if(parent_div_git) {
+      parent_div_git.insertAdjacentHTML("afterbegin",item_html)
+    }
+  }
+  var elist = 'null'.split(',');
+  var cpage = location.pathname;
+  var epage = 'all';
+  var qweather_key = 'b16a1fa0e63c46a4b8f28abfb06ae3fe';
+  var gaud_map_key = 'e2b04289e870b005374ee030148d64fd&s=rsv3';
+  var baidu_ak_key = 'undefined';
+  var flag = 0;
+  var clock_rectangle = '112.982279,28.19409';
+  var clock_default_rectangle_enable = 'false';
+
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
+
+  if ((epage ==='all')&&(flag == 0)){
+    butterfly_clock_anzhiyu_injector_config();
+  }
+  else if (epage === cpage){
+    butterfly_clock_anzhiyu_injector_config();
+  }
+  </script><script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script><script data-pjax src="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.js"></script><!-- hexo injector body_end end --></body></html>
